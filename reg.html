@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam Registration</title>
+    <link rel="stylesheet" href="reg.css">
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <a href="profile.html" class="p">Profile</a> <!-- Link to profile page -->
+        </div>
+        <div class="form-container">
+            <h2>Exam Registration</h2>
+            <form id="registrationForm">
+                <div class="form-group">
+                    <label for="name" class="m">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email" class="m">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label class="m">Select Exam Level</label><br>
+                    <label><input type="radio" name="examLevel" value="IGCSE" required> Cambridge IGCSE Level</label><br>
+                    <label><input type="radio" name="examLevel" value="AS"> Cambridge International AS Level</label><br>
+                    <label><input type="radio" name="examLevel" value="A"> Cambridge International A Level</label>
+                </div>
+                <div class="form-group subject-options" id="subjectOptions">
+                    <!-- Subject options will be dynamically added here based on selected exam level -->
+                </div>
+                <div class="form-group">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+            <div class="success-message" id="successMessage" style="display: none;">Successfully saved! <a href="payment.html"><button id="payNow">Pay Now</button></a></div>
+        </div>
+    </div>
+</body>
+<script src="reg.js"></script>
+</html>

@@ -1,0 +1,97 @@
+* {
+    font-family: cursive;
+    background-color: beige;
+}
+
+div div h2 {
+    color: brown;
+}
+
+.p {
+    color: brown;
+    text-decoration: none;
+}
+
+.m {
+    color: brown;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.profile {
+    float: right;
+    margin-bottom: 20px;
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group .subject-options {
+    margin-top: 10px;
+}
+
+.form-group .subject-options label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+
+.form-group button {
+    padding: 10px 20px;
+    background-color: brown;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-group button:hover {
+    background-color: #2b0606;
+}
+
+.success-message {
+    color: green;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.success-message a {
+    text-decoration: none;
+}
+
+.success-message button {
+    padding: 5px 10px;
+    background-color: brown;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.success-message button:hover {
+    background-color: #2b0606;
+}
